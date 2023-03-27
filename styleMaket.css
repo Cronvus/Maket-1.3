@@ -84,6 +84,10 @@ body{
    flex-wrap: wrap;
 }
 .main__title{
+    display: flex;
+    width: 100%;
+}
+.main__title_content{
     margin-right: 12px;
     font-family: 'TT Lakes', sans-serif;
     height: 40px;
@@ -127,7 +131,8 @@ body{
     margin-right:15px;
     margin-left: 24px;
     align-items: center;
-    line-height: 24px;    
+    line-height: 24px;  
+    width: 100%;  
 }
 .main__button::-webkit-scrollbar{
     width: 0;
@@ -208,7 +213,7 @@ padding: 10px 12px;
 .laptop{
  display: block;
 }
-.main__title{
+.main__title_content{
     margin-right: 20px;
 }
 .main__text{
@@ -252,7 +257,7 @@ padding: 10px 12px;
 .pc{
     display: block;
 }
-.main__title{
+.main__title_content{
     margin-right: 30px;
 }
 .signature_setting{
