@@ -47,9 +47,12 @@ body{
     border-bottom: #41F6D7 1px solid;
 }
 
-.header__icon-background-logo .header__icon-logo{
+.header__icon-background-logo{
     width: 96.55px;
     height: 50.81px;
+    background-image: url(image/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
     margin-left: 16px;
 }
 
