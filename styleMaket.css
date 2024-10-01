@@ -54,6 +54,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 16px;
+    margin-right: auto;
 }
 
 .header__icon-background{
@@ -100,7 +101,12 @@ body{
     font-size: 28px;
     font-style: bold;
 }
-
+.main__title-button{
+    display: flex;
+}
+.main__title-button:first-of-type{
+    margin-left: auto;
+}
 .main__info-text{
     font-family: 'TT Lakes', sans-serif;
     font-size: 14px;
@@ -178,6 +184,8 @@ a{
     padding-left: 16px;
     line-height: 24px;
     align-items: center;
+    background-color: #F8F8F8;
+    border: none;
 }
 
 .icon-support{
@@ -225,6 +233,9 @@ a{
     width: 40px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.main__image{
+    margin: 0 auto;
 }
 .laptop, .pc{
     display: none;
