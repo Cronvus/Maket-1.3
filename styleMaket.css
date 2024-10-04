@@ -36,7 +36,8 @@
 }
 
 body{
-    width: 100%;
+    min-width: 320px;
+    max-width: 1440px;
 }
 
 .header{
@@ -47,8 +48,8 @@ body{
     border-bottom: #41F6D7 1px solid;
 }
 
-.header__icon-background-logo{
-    width: 96.55px;
+.header__icon-background--logo{
+    min-width: 96.55px;
     height: 50.81px;
     background-image: url(image/Logo.png);
     background-position: center;
@@ -57,15 +58,20 @@ body{
     margin-right: auto;
 }
 
-.header__icon-background{
+.header__button-icon--background{
     margin-left: 16px;
     max-height: 40px;
     border: 1px solid #FF3E79;
     background-color: #FF3E79;
     border-radius: 50%; 
 }
+.header__button{
+    margin-left: auto;
+    display: flex;
 
-.header__icon-background.empty{
+}
+
+.header__icon-background--empty{
     width: 0;
     padding: 0;
     background-color: #EAEAEA;
@@ -79,13 +85,13 @@ body{
 }
 
 .main{
-   padding: 24px 0;
    min-height: 509px;
    background-color: #F8F8F8;
    display: flex;
    flex-wrap: wrap;
 }
 .main__title{
+    padding-top: 24px;
     display: flex;
     width: 100%;
 }
@@ -191,51 +197,51 @@ a{
 .icon-support{
     width: 40px;
     height: 40px;
-    background-image: url(image/support.png);
+    background-image: url(image/support.svg);
     background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
 }
 
 .icon-menu{
-    background-image: url(image/Main.png);
+    background-image: url(image/Main.svg);
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .icon-search{
-    background-image: url(image/Search.png);
+    background-image: url(image/Search.svg);
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 24px;
 }
 .icon-setting{
-    background-image: url(image/Setting.png);
+    background-image: url(image/Setting.svg);
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .icon-message{
-    background-image: url(image/Message.png);
+    background-image: url(image/Message.svg);
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .icon-profile{
-    background-image: url(image/Profile.png);
+    background-image: url(image/Profile.svg);
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .main__image{
-    margin: 0 auto;
+    margin: 0 auto 24px auto;
 }
 .laptop, .pc{
     display: none;
