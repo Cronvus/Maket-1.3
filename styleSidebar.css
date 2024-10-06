@@ -62,7 +62,7 @@ body{
 .sideBar-header__icon-background-logo{
     margin-right: auto;
 }
-.header__icon-background--logo{
+.btn__icon-background_logo{
     width: 96.55px;
     height: 50.81px;
     background-image: url(image/Logo.png);
