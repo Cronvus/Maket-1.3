@@ -41,7 +41,7 @@
     background-color: #F8F8F8;
 }
 
-.btn_display{
+.header{
     height: 88px;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@
     background-color: white;
 }
 
-.btn-icon{
+.btn{
     margin-left: 16px;
     min-height: 40px;
     min-width: 40px;
@@ -58,7 +58,7 @@
     background: #FF3E79 no-repeat center;
     border-radius: 50%;
 }
-.btn-icon__logo{
+.logo{
     min-width: 96.55px;
     height: 50.81px;
     background-image: url(image/Logo.png);
@@ -67,7 +67,7 @@
     margin-left: 16px;
     margin-right: auto;
 }
-.btn-icon__empty{
+.empty-div{
     width: 0;
     padding: 0;
     background-color: #EAEAEA;
@@ -185,26 +185,26 @@ a{
     border: none;
 }
 
-.btn-icon--support{
+.btn--support{
     background-image: url(image/support.svg);
     margin-left: auto;
 }
 
-.btn-icon--menu{
+.btn--menu{
     background-image: url(image/Main.svg);
 }
 
-.btn-icon--search{
+.btn--search{
     background-image: url(image/Search.svg);
     margin-right: 24px;
 }
-.btn-icon--setting{
+.btn--setting{
     background-image: url(image/Setting.svg);
 }
-.btn-icon--message{
+.btn--message{
     background-image: url(image/Message.svg);
 }
-.btn-icon--profile{
+.btn--profile{
     background-image: url(image/Profile.svg);
 }
 .main__image{
@@ -309,7 +309,7 @@ a{
     height: auto;
     
 }
-.btn-icon--setting{
+.btn--setting{
     margin-right: 32px;
 }
 .main__info{
