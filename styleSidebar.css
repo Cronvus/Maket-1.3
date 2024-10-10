@@ -62,7 +62,7 @@ body{
 .sideBar-header__icon-background-logo{
     margin-right: auto;
 }
-.btn__icon-background_logo{
+.btn-icon__logo{
     width: 96.55px;
     height: 50.81px;
     background-image: url(image/Logo.png);
@@ -116,7 +116,7 @@ a{
 .sideBar-button__link.actived{
     color: #7E7E82;
 }
-.icon-support{
+.btn-icon--support{
     width: 40px;
     height: 40px;
     background-image: url(image/support.png);
@@ -124,14 +124,14 @@ a{
     background-repeat: no-repeat;
     margin-left: auto;
 }
-.icon-message{
+.btn-icon--message{
     background-image: url(image/Message.png);
     height: 40px;
     width: 40px;
     background-position: center;
     background-repeat: no-repeat;
 }
-.icon-profile{
+.btn-icon--profile{
     background-image: url(image/Profile.png);
     height: 40px;
     width: 40px;
