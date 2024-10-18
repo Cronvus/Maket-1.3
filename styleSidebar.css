@@ -33,7 +33,7 @@
     font-weight: medium;
     font-style: normal;
 }
-body{
+.sb-body{
  width: 320px;
  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
  height: 1024px;
@@ -42,57 +42,50 @@ body{
  left: 0;
 }
 
-.sideBar-header{
+.sb-body__sb-header{
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 24px;  
 }
-.sideBar__icon-background{
-    max-height: 40px;
+.btn{
+    min-height: 40px;
+    min-width: 40px;
     border: 1px solid #FF3E79;
-    background-color: #FF3E79;
+    background: #FF3E79 no-repeat center;
     border-radius: 50%;
-    margin-right: 16px;
 }
-.sideBar__icon-background:hover{
+.btn:hover{
     opacity: 0.5;
 }
-.sideBar-header__icon-background-logo{
+.logo_position{
     margin-right: auto;
 }
 .logo{
-    width: 96.55px;
+    min-width: 96.55px;
     height: 50.81px;
     background-image: url(image/Logo.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-.sideBar-header__icon-search{
-    width: 40px;
-    height: 40px;
-    background-image: url(image/sidebar_search.png);
-    background-position: center;
-    background-repeat: no-repeat;
+.btn_sidebarSearch{
+    background-image: url(image/sidebar_search.svg);
     margin-left: auto;
     margin-right: 24px;
 }
-.sideBar-header__icon-cross{
-    width: 40px;
-    height: 40px;
-    background-image: url(image/cross.png);
-    background-position: center;
-    background-repeat: no-repeat;
+.btn_cross{
+    background-image: url(image/cross.svg);
+    margin-right: 16px;
 }
 a{
     text-decoration: none;
     color: #1B1C21;
 }
-.sideBar-main{
+.sb-body__sb-main{
     padding-top: 54px;
 }
-.sideBar-main_empty{
+.sb-emptyDiv{
     width: 4px;
     height: 32px;
     background-color: #41F6D7;
@@ -102,57 +95,48 @@ a{
     left: 0;
     top: 118px;
 }
-.sideBar-main__sideBar-button{
+.sb-body__sb-button-link{
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
 }
-.sideBar-button__link{
+.sb-body__link{
    padding-bottom: 32px;
    font-size: 16px;
    font-family: 'TT Lakes', sans-serif;
    font-style: medium;
 }
-.sideBar-button__link.actived{
+.sb-body__link.actived{
     color: #7E7E82;
 }
-.btn--support{
-    width: 40px;
-    height: 40px;
-    background-image: url(image/support.png);
-    background-position: center;
-    background-repeat: no-repeat;
+.btn_support{
+    background-image: url(image/support.svg);
     margin-left: auto;
+    margin-right: 16px;
 }
-.btn--message{
-    background-image: url(image/Message.png);
-    height: 40px;
-    width: 40px;
-    background-position: center;
-    background-repeat: no-repeat;
+.btn_message{
+    background-image: url(image/Message.svg);
+    margin-right: 16px;
 }
-.btn--profile{
-    background-image: url(image/Profile.png);
-    height: 40px;
-    width: 40px;
-    background-position: center;
-    background-repeat: no-repeat;
+.btn_profile{
+    background-image: url(image/Profile.svg);
+    margin-right: 16px;
 }
-.sideBar-footer{
+.sb-footer{
     position: absolute;
     bottom: 24px;
 }
-.sideBar-footer__button{
+.sb-footer__button{
     padding-bottom: 16px;
 }
-.sideBar-footer__email{
+.sb-footer__email{
     padding-bottom: 12px;
     font-family: 'TT Lakes', sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
 }
-.sideBar-footer__phone{
+.sb-footer__phone{
     padding-bottom: 40px;
     font-family: 'TT Lakes', sans-serif;
     font-weight: bold;
@@ -176,4 +160,7 @@ label{
     padding-left: 7px;
     line-height: 24px;
     letter-spacing: -0.2px;
+}
+label[for="rus"]{
+    padding-left: 0;
 }

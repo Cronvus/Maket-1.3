@@ -185,7 +185,7 @@ a{
     border: none;
 }
 
-.btn--support{
+.btn_support{
     background-image: url(image/support.svg);
     margin-left: auto;
 }
@@ -194,17 +194,17 @@ a{
     background-image: url(image/Main.svg);
 }
 
-.btn--search{
+.btn_search{
     background-image: url(image/Search.svg);
     margin-right: 24px;
 }
-.btn--setting{
+.btn_setting{
     background-image: url(image/Setting.svg);
 }
-.btn--message{
+.btn_message{
     background-image: url(image/Message.svg);
 }
-.btn--profile{
+.btn_profile{
     background-image: url(image/Profile.svg);
 }
 .main__image{
@@ -309,7 +309,7 @@ a{
     height: auto;
     
 }
-.btn--setting{
+.btn_setting{
     margin-right: 32px;
 }
 .main__info{
