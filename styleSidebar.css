@@ -33,23 +33,25 @@
     font-weight: medium;
     font-style: normal;
 }
-.sb-body{
+.modal-burger{
  width: 320px;
  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
- height: 1024px;
- padding-left: 24px;
- position: absolute;
- left: 0;
-}
+ height: 100%;
 
-.sb-body__sb-header{
+}
+.header__modal-burger{
+    padding: 24px;
+    position: absolute;
+    left: 0;
+}
+.modal-body__modal-header{
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 24px;  
 }
 .btn{
+    margin-left: 16px;
     min-height: 40px;
     min-width: 40px;
     border: 1px solid #FF3E79;
@@ -60,6 +62,7 @@
     opacity: 0.5;
 }
 .logo_position{
+    margin-left: 16px;
     margin-right: auto;
 }
 .logo{
@@ -69,23 +72,23 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.btn_sidebarSearch{
+.btn_modalSearch{
     background-image: url(image/sidebar_search.svg);
     margin-left: auto;
-    margin-right: 24px;
 }
 .btn_cross{
     background-image: url(image/cross.svg);
-    margin-right: 16px;
+    margin-left: 0;
+
 }
 a{
     text-decoration: none;
     color: #1B1C21;
 }
-.sb-body__sb-main{
-    padding-top: 54px;
+.modal-burger__modal-navigation{
+    padding-top: 34px;
 }
-.sb-emptyDiv{
+.modal-emptyDiv{
     width: 4px;
     height: 32px;
     background-color: #41F6D7;
@@ -95,48 +98,48 @@ a{
     left: 0;
     top: 118px;
 }
-.sb-body__sb-button-link{
+.modal-burger__modal-button-link{
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
 }
-.sb-body__link{
+.modal-burger__link{
    padding-bottom: 32px;
    font-size: 16px;
    font-family: 'TT Lakes', sans-serif;
    font-style: medium;
 }
-.sb-body__link.actived{
+.modal-burger__link.actived{
     color: #7E7E82;
 }
 .btn_support{
     background-image: url(image/support.svg);
     margin-left: auto;
-    margin-right: 16px;
+
 }
 .btn_message{
     background-image: url(image/Message.svg);
-    margin-right: 16px;
+
 }
 .btn_profile{
     background-image: url(image/Profile.svg);
-    margin-right: 16px;
+
 }
-.sb-footer{
+.modal-burger__modal-footer{
     position: absolute;
     bottom: 24px;
 }
-.sb-footer__button{
+.modal-burger__button{
     padding-bottom: 16px;
 }
-.sb-footer__email{
+.modal-burger__email{
     padding-bottom: 12px;
     font-family: 'TT Lakes', sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
 }
-.sb-footer__phone{
+.modal-burger__phone{
     padding-bottom: 40px;
     font-family: 'TT Lakes', sans-serif;
     font-weight: bold;
